@@ -1,4 +1,5 @@
-import React from 'react';
+import { Menu, X } from 'lucide-react';
+import React, { useState } from 'react';
 const dataNavigation = [
     { id: 1, name: "Home", path: "/" },
     { id: 2, name: "About", path: "/about" },
@@ -8,12 +9,18 @@ const dataNavigation = [
   ];
 const Navbar = () => {
 
+    const [open, setOpen] = useState(false)
 
     return (
         <div>
             <nav className='flex items-center justify-between px-10 py-4'>
-                <h2 className='text-3xl font-medium'>Navbar</h2>
+
+               <span onClick={()=> setOpen(!open)} className='flex mr-10'>
+                { open ? <X size={45} color='black' className='md:hidden'></X> : <Menu size={45} color='black' className='md:hidden'/>}
                
+              
+               </span>
+               <h2 className='text-3xl font-medium'>Navbar</h2>
                 <ul className='flex'>
                     {
                         dataNavigation.map(data => <li key={data.id} className='mr-10'><a href={data.path}>{data.name}</a></li>)
