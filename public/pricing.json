@@ -1,0 +1,63 @@
+[
+    {
+      "id": "basic-001",
+      "name": "Basic Plan",
+      "price": "$29/month",
+      "description": "Perfect for beginners or casual gym-goers who want essential access without extras.",
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "1 guest pass/month",
+        "Access during staffed hours",
+        "Fitness assessment (1 per year)",
+        "No contract required"
+      ]
+    },
+    {
+      "id": "standard-002",
+      "name": "Standard Plan",
+      "price": "$49/month",
+      "description": "A great value plan for fitness enthusiasts who want group classes and more flexibility.",
+      "features": [
+        "All Basic features",
+        "Unlimited group classes (yoga, HIIT, Zumba)",
+        "2 guest passes/month",
+        "Free Wi-Fi",
+        "Access to mobile app for class booking",
+        "Extended hours access",
+        "10% discount on gym merchandise"
+      ]
+    },
+    {
+      "id": "premium-003",
+      "name": "Premium Plan",
+      "price": "$79/month",
+      "description": "Designed for serious fitness lovers looking for personalized support and wellness extras.",
+      "features": [
+        "All Standard features",
+        "2 personal trainer sessions/month",
+        "Sauna and steam room access",
+        "Towel and locker service",
+        "Monthly body composition analysis",
+        "Massage chair use",
+        "Early access to new programs"
+      ]
+    },
+    {
+      "id": "elite-004",
+      "name": "Elite Plan",
+      "price": "$119/month",
+      "description": "Our most comprehensive package for those seeking total fitness, convenience, and VIP perks.",
+      "features": [
+        "All Premium features",
+        "Unlimited personal training",
+        "Customized meal plans",
+        "Nutritionist consultation (monthly)",
+        "24/7 gym access",
+        "Reserved locker",
+        "Priority class booking",
+        "Exclusive members-only events"
+      ]
+    }
+  ]
+  
