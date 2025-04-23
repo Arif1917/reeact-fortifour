@@ -2,17 +2,17 @@ import React from 'react';
 import ShowDaisy from './ShowDaisy';
 
 const DaisyCard = ({daisys}) => {
-    console.log(daisys)
+    // console.log(daisys)
     return (
         <div className=' '>
-            <div className="card w-96  shadow-sm bg-amber-100 ">
-  <div className="card-body">
+            <div className="card w-auto md:w-96  shadow-sm bg-amber-100 ">
+  <div className="card-body h-[450px] flex flex-col">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">
       <h2 className="text-3xl font-bold">{daisys.name}</h2>
       <span className="text-xl">{daisys.price}</span>
     </div>
-    <div className=''>
+    <div className='flex-1'>
     <ul className="mt-6 flex flex-col gap-2 text-xs ">
       
       {
