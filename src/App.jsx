@@ -1,5 +1,6 @@
 
 import './App.css'
+import DaisyPricing from './components/DaisyPricingCard/DaisyPricing'
 import Navbar from './components/Navbar/Navbar'
 import Pricing from './components/Pricing/Pricing'
 
@@ -14,6 +15,7 @@ function App() {
 
      <main>
       <Pricing></Pricing>
+      <DaisyPricing></DaisyPricing>
      </main>
     </>
   )
